@@ -6,22 +6,22 @@ ad esempio ci potrebbero essere diverse tipologie di prodotti -->
 
 <?php 
 
-require_once __DIR__ . '/StrumentiACorda.php';
-require_once __DIR__ . '/StrumentiAPercussione.php';
-require_once __DIR__ . '/StrumentiAFiato.php';
+require_once __DIR__ . '/StrumentoACorda.php';
+require_once __DIR__ . '/StrumentoAPercussione.php';
+require_once __DIR__ . '/StrumentoAFiato.php';
 require_once __DIR__ . '/User.php';
 
 
 //Strumenti 
 
-$violino = new StrumentiACorda('Violino', 'Gliga');
+$violino = new StrumentoACorda('Violino', 'Gliga');
 // var_dump($violino->getInfoData());
 
 
-$bodhran = new StrumentiAPercussione('Bodhran', 'Meinl');
+$bodhran = new StrumentoAPercussione('Bodhran', 'Meinl');
 // var_dump($bodhran->getInfoData());
 
-$flauto = new StrumentiAFiato('Flauto', 'Altus');
+$flauto = new StrumentoAFiato('Flauto', 'Altus');
 // var_dump($flauto->getInfoData());
 
 

@@ -1,6 +1,6 @@
 <?php 
 
-class StrumentiMusicali {
+class StrumentoMusicale {
 
     public $tipo_di_strumento;
     
